@@ -45,7 +45,7 @@ Dark Knight includes three theme variants:
 ## Installation
 
 1. Open **Extensions** in VS Code (`Ctrl+Shift+X` or `Cmd+Shift+X`).
-2. Search for `Nordic` (publisher: **DarkKnight**).
+2. Search for `Dark Knight` (publisher: **hasanozgan**).
 3. Click **Install**.
 4. Press `Ctrl+K Ctrl+T` (or `Cmd+K Cmd+T`) and select:
    - **Dark Knight Nordic**

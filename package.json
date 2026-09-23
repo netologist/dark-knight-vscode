@@ -1,10 +1,10 @@
 {
-	"name": "nordic",
-	"displayName": "Nordic",
+	"name": "darkknight",
+	"displayName": "Dark Knight",
 	"description": "A dark theme for VS Code featuring Midnight and Nordic variants.",
 	"license": "MIT",
 	"version": "1.1.0",
-	"publisher": "DarkKnight",
+	"publisher": "hasanozgan",
 	"preview": false,
 	"icon": "icon.png",
 	"engines": {

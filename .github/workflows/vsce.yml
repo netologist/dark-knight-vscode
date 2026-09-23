@@ -21,7 +21,7 @@ jobs:
 
       - name: Verify Marketplace PAT
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-        run: npx --yes @vscode/vsce verify-pat DarkKnight -p "$VSCE_TOKEN"
+        run: npx --yes @vscode/vsce verify-pat hasanozgan -p "$VSCE_TOKEN"
         env:
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
 
