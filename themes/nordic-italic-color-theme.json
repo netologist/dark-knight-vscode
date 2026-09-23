@@ -47,7 +47,7 @@
     "editorLightBulb.foreground": "#EBCB8B",
     "editorLightBulbAutoFix.foreground": "#88C0D0",
     "editorBracketMatch.background": "#81A1C133",
-    "editorBracketMatch.border": "#81A1C1",
+    "editorBracketMatch.border": "#878787",
     "editorBracketHighlight.foreground1": "#BF616A",
     "editorBracketHighlight.foreground2": "#D08770",
     "editorBracketHighlight.foreground3": "#EBCB8B",
@@ -80,7 +80,6 @@
     "editorOverviewRuler.deletedForeground": "#BF616A",
     "editorOverviewRuler.findMatchForeground": "#EBCB8B99",
     "editorOverviewRuler.selectionHighlightForeground": "#3B4252",
-    "editorOverviewRuler.bracketMatchForeground": "#81A1C1",
     "editorMarkerNavigation.background": "#1E222A",
     "editorMarkerNavigationError.background": "#BF616A",
     "editorMarkerNavigationWarning.background": "#EBCB8B",
@@ -337,7 +336,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#4C566A",
+        "foreground": "#60728A",
         "fontStyle": "italic"
       }
     },
@@ -496,7 +495,7 @@
         "keyword.other.package"
       ],
       "settings": {
-        "foreground": "#BF616A",
+        "foreground": "#D08770",
         "fontStyle": "italic"
       }
     },
@@ -509,7 +508,7 @@
         "punctuation.accessor"
       ],
       "settings": {
-        "foreground": "#60728A"
+        "foreground": "#C0C8D8"
       }
     },
     {
@@ -519,7 +518,7 @@
         "meta.brace"
       ],
       "settings": {
-        "foreground": "#60728A",
+        "foreground": "#C0C8D8",
         "fontStyle": "italic"
       }
     },
@@ -1332,8 +1331,19 @@
         "keyword.other.package.go"
       ],
       "settings": {
-        "foreground": "#BF616A",
+        "foreground": "#D08770",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Go: package / import — package source: yellow.base",
+      "scope": [
+        "string.quoted.double.go.import",
+        "punctuation.definition.string.begin.go.import",
+        "punctuation.definition.string.end.go.import"
+      ],
+      "settings": {
+        "foreground": "#EBCB8B"
       }
     },
     {

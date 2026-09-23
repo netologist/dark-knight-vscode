@@ -3,7 +3,7 @@
 	"displayName": "Nordic",
 	"description": "A dark theme for VS Code featuring Midnight and Nordic variants.",
 	"license": "MIT",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"publisher": "DarkKnight",
 	"preview": false,
 	"icon": "icon.png",
@@ -37,6 +37,15 @@
 		"Themes"
 	],
 	"contributes": {
+		"grammars": [
+			{
+				"scopeName": "source.go.imports",
+				"path": "./syntaxes/go-imports.tmLanguage.json",
+				"injectTo": [
+					"source.go"
+				]
+			}
+		],
 		"themes": [
 			{
 				"label": "Dark Knight Midnight",

@@ -1,0 +1,29 @@
+{
+  "scopeName": "source.go.imports",
+  "injectionSelector": "L:source.go",
+  "patterns": [
+    {
+      "match": "(?<=\\bimport\\s)(\"[^\"]*\")",
+      "captures": {
+        "1": {
+          "name": "string.quoted.double.go.import"
+        }
+      }
+    },
+    {
+      "begin": "\\bimport\\s*\\(",
+      "beginCaptures": {
+        "0": {
+          "name": "keyword.control.import.go"
+        }
+      },
+      "end": "\\)",
+      "patterns": [
+        {
+          "match": "\"[^\"]*\"",
+          "name": "string.quoted.double.go.import"
+        }
+      ]
+    }
+  ]
+}

@@ -49,7 +49,7 @@
     "editorLightBulbAutoFix.foreground": "#88C0D0",
 
     "editorBracketMatch.background": "#81A1C133",
-    "editorBracketMatch.border": "#81A1C1",
+    "editorBracketMatch.border": "#878787",
     "editorBracketHighlight.foreground1": "#BF616A",
     "editorBracketHighlight.foreground2": "#D08770",
     "editorBracketHighlight.foreground3": "#EBCB8B",
@@ -83,7 +83,6 @@
     "editorOverviewRuler.deletedForeground": "#BF616A",
     "editorOverviewRuler.findMatchForeground": "#EBCB8B99",
     "editorOverviewRuler.selectionHighlightForeground": "#3B4252",
-    "editorOverviewRuler.bracketMatchForeground": "#81A1C1",
     "editorMarkerNavigation.background": "#1E222A",
     "editorMarkerNavigationError.background": "#BF616A",
     "editorMarkerNavigationWarning.background": "#EBCB8B",
@@ -360,7 +359,7 @@
     {
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
-      "settings": { "foreground": "#4C566A", "fontStyle": "italic" }
+      "settings": { "foreground": "#60728A", "fontStyle": "italic" }
     },
     {
       "name": "Documentation comment tags (@param, @returns)",
@@ -448,17 +447,17 @@
         "keyword.other.import",
         "keyword.other.package"
       ],
-      "settings": { "foreground": "#BF616A" }
+      "settings": { "foreground": "#D08770" }
     },
     {
       "name": "Operators and punctuation — gray5",
       "scope": ["keyword.operator", "punctuation.separator", "punctuation.terminator", "punctuation.accessor"],
-      "settings": { "foreground": "#60728A" }
+      "settings": { "foreground": "#C0C8D8" }
     },
     {
       "name": "Generic punctuation / brackets — Delimiter: gray5 italic",
       "scope": ["punctuation", "meta.brace"],
-      "settings": { "foreground": "#60728A", "fontStyle": "italic" }
+      "settings": { "foreground": "#C0C8D8", "fontStyle": "italic" }
     },
     {
       "name": "Functions and methods — Function: blue2 (#88C0D0)",
@@ -972,7 +971,16 @@
         "keyword.control.import.go",
         "keyword.other.package.go"
       ],
-      "settings": { "foreground": "#BF616A" }
+      "settings": { "foreground": "#D08770" }
+    },
+    {
+      "name": "Go: package / import — package source: yellow.base",
+      "scope": [
+        "string.quoted.double.go.import",
+        "punctuation.definition.string.begin.go.import",
+        "punctuation.definition.string.end.go.import"
+      ],
+      "settings": { "foreground": "#EBCB8B" }
     },
     {
       "name": "Go: func / var / const / type / struct / interface — Keyword: orange.base",
