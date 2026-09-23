@@ -19,6 +19,12 @@ jobs:
       - name: Verify package build
         run: npx --yes @vscode/vsce package --no-git-tag-version
 
+      - name: Verify Marketplace PAT
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        run: npx --yes @vscode/vsce verify-pat DarkKnight -p "$VSCE_TOKEN"
+        env:
+          VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
+
       - name: Publish to VS Code Marketplace
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         run: npx --yes @vscode/vsce publish -p "$VSCE_TOKEN"
