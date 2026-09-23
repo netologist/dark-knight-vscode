@@ -1,14 +1,14 @@
 {
 	"name": "darkknight",
 	"displayName": "Dark Knight",
-	"description": "A simple dark theme for Golang projects",
+	"description": "A dark theme for VS Code featuring Midnight and Nordic variants.",
 	"license": "MIT",
-	"version": "1.0.9",
+	"version": "1.1.0",
 	"publisher": "hasanozgan",
 	"preview": false,
 	"icon": "icon.png",
 	"engines": {
-		"vscode": "*"
+		"vscode": "^1.70.0"
 	},
 	"galleryBanner": {
 		"color": "#212121",
@@ -16,6 +16,9 @@
 	},
 	"keywords": [
 		"theme",
+		"nord",
+		"nordic",
+		"midnight",
 		"minimal",
 		"night",
 		"dark",
@@ -25,10 +28,10 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/hasanozgan/dark-knight-vscode.git"
+		"url": "https://github.com/netologist/dark-knight-vscode.git"
 	},
 	"bugs": {
-		"url": "https://github.com/hasanozgan/dark-knight-vscode/issues"
+		"url": "https://github.com/netologist/dark-knight-vscode/issues"
 	},
 	"categories": [
 		"Themes"
@@ -36,15 +39,20 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Dark Knight",
+				"label": "Dark Knight Midnight",
 				"uiTheme": "vs-dark",
-				"path": "./dark-knight-color-theme.json"
+				"path": "./themes/midnight-color-theme.json"
+			},
+			{
+				"label": "Dark Knight Nordic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/nordic-color-theme.json"
+			},
+			{
+				"label": "Dark Knight Nordic Italic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/nordic-italic-color-theme.json"
 			}
 		]
-	},
-	"__metadata": {
-		"id": "144be4c3-6e5b-44a2-959e-beaf906525ac",
-		"publisherId": "ffdc4a87-b9a3-4952-ad8d-286f0722eab7",
-		"publisherDisplayName": "Hasan Ozgan"
 	}
 }

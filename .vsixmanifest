@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Language="en-US" Id="DarkKnight" Version="0.0.1" Publisher="hasanozgan"/>
-    <DisplayName>Night Blue</DisplayName>
-    <Description xml:space="preserve">A simple dark theme.</Description>
+    <Identity Language="en-US" Id="darkknight" Version="1.1.0" Publisher="hasanozgan"/>
+    <DisplayName>Dark Knight</DisplayName>
+    <Description xml:space="preserve">A dark theme for VS Code featuring Midnight and Nordic variants.</Description>
     <Tags>theme,minimal,night,dark,blue,color-theme</Tags>
     <Categories>Themes</Categories>
     <GalleryFlags>Public Preview</GalleryFlags>
@@ -13,13 +13,10 @@
       <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
       <Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
       
-        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/hasanozgan/dark-knight-vscode.git" />
-        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/hasanozgan/night-blue-vscode.git" />
-        
-          <Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/hasanozgan/night-blue-vscode.git" />
-        
-      
-      <Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/hasanozgan/night-blue-vscode/issues" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/netologist/dark-knight-vscode.git" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/netologist/dark-knight-vscode.git" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/netologist/dark-knight-vscode.git" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/netologist/dark-knight-vscode/issues" />
       
       
       
